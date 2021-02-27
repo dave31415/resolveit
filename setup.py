@@ -20,7 +20,7 @@ setup_args = dict(
     author='David Johnston',
     author_email='dave31415@gmail.com',
     keywords=[],
-    url='https://github.com/dave31415/resolver',
+    url='https://github.com/dave31415/resolveit',
     download_url='https://pypi.org/project/resolveit/'
 )
 
