@@ -1,8 +1,7 @@
-from collections import Counter
 from statistics import median
-from resolver.utils import is_numeric, is_empty, is_null, n_words
-from resolver.column_vectors import count_values_col, count_words_col
-from resolver.column_vectors import count_shingles_col
+from resolveit.utils import is_numeric, is_empty, is_null, n_words
+from resolveit.column_vectors import count_words_col
+from resolveit.column_vectors import count_shingles_col
 
 
 def frac_is(col, function):

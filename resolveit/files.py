@@ -1,6 +1,6 @@
 from glob import glob
 from csv import DictReader
-from resolver.utils import take
+from resolveit.utils import take
 
 
 def get_files():

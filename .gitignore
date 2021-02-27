@@ -2,4 +2,4 @@ matrix_image.html
 venv
 .idea/
 data/
-
+*/__pycache__/

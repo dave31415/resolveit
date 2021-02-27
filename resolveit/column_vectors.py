@@ -1,5 +1,5 @@
 from collections import Counter
-from resolver.shingle import count_shingles
+from resolveit.shingle import count_shingles
 
 
 def count_values_col(col):

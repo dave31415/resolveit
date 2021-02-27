@@ -1,11 +1,11 @@
 from time import time
 from random import Random
 import numpy as np
-from resolver.files import get_files
-from resolver.files import stream_file
-from resolver.utils import take
-from resolver.get_column_stats import get_column_stats
-from resolver.get_column_stats import column_stats_total_distance
+from resolveit.files import get_files
+from resolveit.files import stream_file
+from resolveit.utils import take
+from resolveit.get_column_stats import get_column_stats
+from resolveit.get_column_stats import column_stats_total_distance
 
 
 def get_all_stats_from_stream(stream, n_rows_max=500, check_distances=False,

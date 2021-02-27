@@ -1,5 +1,5 @@
-from resolver.get_all_stats import get_all_stats, get_stats_dist_matrix
-from resolver.show_matrix import show_matrix
+from resolveit.get_all_stats import get_all_stats, get_stats_dist_matrix
+from resolveit.show_matrix import show_matrix
 
 
 def print_stats(stats):
@@ -11,13 +11,13 @@ def print_stats(stats):
 
 
 def test_get_column_stats():
-    all_stats = get_all_stats(n_files_max=500, n_rows_max=500, check_distances=True)
+    _ = get_all_stats(n_files_max=500, n_rows_max=500, check_distances=True)
 
 
 def test_stats_dist_matrix():
     n_files_max = 3
     n_rows_max = 100
-    keys, matrix = get_stats_dist_matrix(n_files_max=n_files_max, n_rows_max=n_rows_max)
+    keys, matrix, stats = get_stats_dist_matrix(n_files_max=n_files_max, n_rows_max=n_rows_max)
     print(keys)
     print(matrix.shape)
     n = len(keys)
@@ -31,7 +31,7 @@ def test_stats_dist_matrix():
 def test_stats_dist_matrix_all():
     n_files_max = 20000
     n_rows_max = 4000
-    keys, matrix = get_stats_dist_matrix(n_files_max=n_files_max, n_rows_max=n_rows_max)
+    keys, matrix, stats = get_stats_dist_matrix(n_files_max=n_files_max, n_rows_max=n_rows_max)
     print('shape', matrix.shape)
     n = len(keys)
     print(n)

@@ -1,5 +1,5 @@
-from resolver import column_stats as cs
-from resolver.utils import asinh_scale
+from resolveit import column_stats as cs
+from resolveit.utils import asinh_scale
 
 
 def get_column_stats(col):
