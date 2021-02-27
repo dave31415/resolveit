@@ -11,7 +11,7 @@ with open('HISTORY.md') as history_file:
 
 setup_args = dict(
     name='resolveit',
-    version='0.1.1',
+    version='0.1.2',
     description='Resolve data schemas',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,
