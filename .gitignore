@@ -3,3 +3,7 @@ venv
 .idea/
 data/
 */__pycache__/
+build/
+dist/
+resolveit.egg-info/
+
